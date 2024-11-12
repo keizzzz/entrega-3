@@ -1,0 +1,32 @@
+.form{
+    border: px black solid;
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+
+.form_area{
+    width: 300px;
+    height: 150px;
+}
+
+
+.form_text {
+    width: 200px;
+    height: 25px;
+}
+
+
+.form_imput{
+    width: 200px;
+    height: 20px;
+}
+
+
+
+.form_text , .form_check , .form_select , .form_imput , .form_area{
+    border: 1px rgb(12, 10, 10) solid;
+}

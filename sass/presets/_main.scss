@@ -1,0 +1,34 @@
+#main{
+    max-width: 1920px;
+    min-height:auto;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to top, rgb(129, 129, 129), rgb(245, 245, 245));
+}
+
+.main_banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/banner-ejemplo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 51%;
+}
+
+
+.main_text{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+}
+
+.main_text img{
+    width: 350px;
+    margin: 10px;
+}
+
+.main_text img:hover{
+transform: rotate(360deg);
+transition: 0.5s;
+}

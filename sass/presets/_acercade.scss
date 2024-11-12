@@ -1,0 +1,42 @@
+.acerca_de_grid{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: grid;
+    padding: 100px 200px 0px 200px;
+    gap: 50px;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas: 
+    "img_acerca1 img_acerca2 img_acerca3"
+    "p_acerca p_acerca p_acerca";
+}
+
+.img_acerca1{
+    grid-area: img_acerca1;
+}
+
+.img_acerca2{
+    grid-area: img_acerca2;
+}
+
+.img_acerca3{
+    grid-area: img_acerca3;
+}
+
+.p_acerca{
+    grid-area: p_acerca;
+    height: auto;
+    text-align: center;
+}
+
+
+.img_acerca1 , .img_acerca2 , .img_acerca3{
+    width: 80%;
+align-items: center;
+}
+
+.img_acerca1:hover , .img_acerca2:hover , .img_acerca3:hover{
+    transform: translate(0px, -40px);
+    transition: 0.5s;
+}
